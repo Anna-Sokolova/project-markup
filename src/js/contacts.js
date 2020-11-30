@@ -36,8 +36,8 @@ contactSection.addEventListener("click", (event) => {
     (user === "Ножницы" && computer === "Бумага") ||
     (user === "Бумага" && computer === "Кмень") ||
     (user === "Кмень" && computer === "Ножницы")
-      ? (msg = "User is Win!")
-      : (msg = "Computer is Win!");
+      ? (msg = "User выиграл!")
+      : (msg = "Computer выиграл!");
   }
 
   result.textContent = msg;
